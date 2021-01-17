@@ -1,9 +1,5 @@
-# unilog
-unilog is a simple log libary wrap uber zap libary
+package main
 
-# example
-
-```
 import (
 	"github.com/leanfra/unilog"
 	"go.uber.org/zap"
@@ -21,10 +17,3 @@ func main() {
 
 	unilog.L().Sugar().Error("b error 1")
 }
-```
-
-# documents
-
-run
-
-`go doc --all`
